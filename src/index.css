@@ -1,14 +1,41 @@
 
 body {
  
-  font-family: 'Lato', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: black;
+  background-image: linear-gradient(to left, #434343 0%, black 100%);
+  
   margin: 0 auto;
   
 }
+.breakpoint{
+  display: flex;
+  justify-content: center;
+}
 
+hr {
+  overflow: visible; /* For IE */
+  padding: 0;
+  width:60%;
+  border: none;
+  border-top: medium double #333;
+  color: darkorange;
+  text-align: center;
+}
+hr:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.9em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  
+}
+.h1{
+  font-size: 50px;
+  
+}
 .intro-desc{
   color: lightseagreen;
 }
@@ -17,16 +44,19 @@ body {
 }
 
 .new{
-  background-color: lightskyblue;
+  background-color: orange;
   color: black;
 }
 
 .navbar{
   background:rgb(0,0,0);
   height: 7em;
+  margin-bottom: 10px;
   padding:10px;
 }
-.navbar-brand strong{
+
+.navbar-brand {
+  font-size: 2.5em;
   color: aliceblue;
 }
 .navbar-container strong{
@@ -44,9 +74,12 @@ body {
   font-weight: 500;
   font-size:20px;
   margin:0 10px;
+  background: #FF9A20;
+  
 }
 .nav-link{
-  color: blue;
+  color:#FF9A20;
+  
   font-weight: 500;
   font-size:20px;
   margin:0 10px;
@@ -54,7 +87,11 @@ body {
 .p2{
   background:#020914;
 }
+.intro-start{
+  background: orange;
+}
 .Template_template-video__3DZ3I{
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   
@@ -68,14 +105,15 @@ body {
  
 }
 .rec-dot{
-  background-color: white !important;
+  background-color:#9acd32 !important;
 }
 .Packs{
-  background:#020914;
+  
   padding-top:30px;
   margin-top:10px;
   margin-bottom: 30px;
 }
+
 .p4{
   margin:30px;
 }
@@ -130,7 +168,12 @@ figure video{
 position: relative;
 
 }
-
+.TeamMember{
+  
+  padding-top:30px;
+  margin-top:10px;
+  margin-bottom: 30px;
+}
 
 
 .pic{
@@ -217,7 +260,7 @@ position: relative;
   justify-content: center;
 }
 .plan-wrap{
-  background:#020914;
+  
   padding-top:30px;
   margin-top:10px;
 }
@@ -227,11 +270,22 @@ position: relative;
   color: silver;
 }
 .video-plan-1{
-  background-image:linear-gradient(157.54deg, #7A5D15 0.76%, #583001 99.24%);
+  border-radius: 45px;
+  
+  background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   padding:15px 10px;
 }
 .video-plan-2{
-  background-image:linear-gradient(153.49deg, #2A4667 0.99%, #35294E 97.05%);
+  
+  border-radius: 45px;
+  background: #16222A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
   padding:15px 10px;
   
 }
@@ -248,9 +302,11 @@ position: relative;
   margin-right: 20px;
 }
 .Plans{
+  display: flex;
+  justify-content: space-around;
   padding-top:25px;
   padding-bottom: 50px;
-  margin:50px 90px;
+  margin:50px 50px;
   
 }
 .prev-price{
@@ -269,7 +325,10 @@ position: relative;
 }
 
 .help2{
-  background:linear-gradient(91.72deg, rgb(42 114 229 / 20%) 1.02%, rgb(63 131 248 / 20%) 99.23%);
+  background: #200122;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   padding: 64px 24px;
   display:flex;
   justify-content: space-between;
@@ -277,13 +336,18 @@ position: relative;
   
 }
 .help{
-  background: #020914;
+  
   display: flex;
   justify-content: center;
   padding-top: 40px;
-  padding-bottom: 144px;
+  padding-bottom: 84px;
 }
-
+.contact{
+  color: orange;
+}
+.register-down{
+  background: orange;
+}
 .footer-links img{
   height: 24px;
 }

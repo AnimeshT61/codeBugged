@@ -15,7 +15,7 @@ function Plans() {
                 <p align="center" className="lead h4">After the first 10,000 free minutes, you pay only for what you use. No lock-in.</p>
             </div>
             <div className="Plans row ">
-                    <div className="video-plan-1 rounded col-12 col-lg-6">
+                    <div className="video-plan-1 col-12 col-lg-5">
                         <div className="icon"><img src="https://img.icons8.com/plasticine/144/000000/camera--v1.png"/></div>
                         <h2 align="center" className="text-white">Video</h2>
                         <h3 align="center" className="text-white">Do everything from online education to events and video conferencing</h3>
@@ -115,7 +115,7 @@ function Plans() {
 
                     </div>
                 </div>
-                <div className="video-plan-2 rounded col-12 col-lg-6">
+                <div className="video-plan-2 col-12 col-lg-5">
                     <div className="icon"><img src="https://img.icons8.com/nolan/144/headphones.png"/></div>
                         <h2 align="center" className="text-white">Audio Only</h2>
                         <h3 align="center" className="text-white">Planning a Clubhouse style audio chatroom? This is the plan for you</h3>

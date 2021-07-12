@@ -24,21 +24,22 @@ function Template() {
                 <figure className={toggleState==1 ? "content active-content" : "content"}>
                     
                     <video autoPlay="autoPlay" loop="loop" muted="muted" playsInline  className="Template_template-video__3DZ3I">
-                        <source src="https://bc-public-static-assets.s3.ap-south-1.amazonaws.com/website-videos/website-dimension/edtech.mp4" type="video/mp4"/>
+                        <source src="https://wave.video/embed/60ec6d6346e0fb0001b7acb8/60ec6d6346e0fb0001b7acbe.mp4" type="video/mp4"/>
                     </video>
                 </figure>
                 <figure  className={toggleState==2 ? "content active-content" : "content"}>
                 
                     <video autoPlay="autoPlay" loop="loop" muted="muted" playsInline className="Template_template-video__3DZ3I">
-                        <source src="https://bc-public-static-assets.s3.ap-south-1.amazonaws.com/website-videos/website-dimension/conf-call.mp4" type="video/mp4"/>
+                        <source src="https://wave.video/embed/60ec65ac46e0fb0001b73968/60ec65ac46e0fb0001b7396e.mp4" type="video/mp4"/>
                     </video>
                 </figure>
                 <figure  className={toggleState==3 ? "content active-content" : "content"}>
                     <video autoPlay="autoPlay" loop="loop" muted="muted" playsInline className="Template_template-video__3DZ3I ">
-                        <source src="https://bc-public-static-assets.s3.ap-south-1.amazonaws.com/website-videos/Landscape_Final.mp4" type="video/mp4"/>
+                        <source src="https://wave.video/embed/60ec693a46e0fb0001ef7b91/60ec693a46e0fb0001ef7b97.mp4" type="video/mp4"/>
                     </video>
                 </figure>
                 </div>
+                <div class="breakpoint mt-5"><hr/></div>
         </div>
     )
 }

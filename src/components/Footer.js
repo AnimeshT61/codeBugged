@@ -5,8 +5,8 @@ function Footer() {
         <div className=" max-w-screen-xl mx-auto py-4 px-4 sm:px-6 lg:px-8 my-0">
             <div className="footer overflow-hidden text-white my-10">
                 <div className="left-links overflow-hidden sm:w-full lg:w-2/5">
-                    <a className="" href="/"><img src="https://img.icons8.com/color/48/000000/internet--v2.png"/></a>
-                    <a className="h3 text-white" style={{fontSize:"100",fontWeight:"10"}} href="/">100ms</a>
+                    <a className="" href="/"><img src="https://img.icons8.com/color/48/000000/video-call--v1.png"/></a>
+                    <a className="text-white" style={{fontSize:"1.3em"}} href="/">100ms</a>
                     <br/>
                     <br/>
                     <p>Video conferencing infrastructure for a video-first world. Quick to integrate native iOS, Android & Web SDKs to add live video & audio conferencing to your applications.</p>

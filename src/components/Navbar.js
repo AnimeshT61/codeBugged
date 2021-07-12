@@ -1,11 +1,12 @@
-import React from 'react'  
+import React,{useState} from 'react'  
 function Navbar() {
+    
     return (
         <div className="container">
-            <nav className="navbar navbar-expand-lg  bg-transparent">
+            <nav className="navbar navbar-expand-lg bg-transparent">
                 <div className="navbar-container">  
-                    <a className="navbar-brand" href="/"><img src="https://img.icons8.com/color/48/000000/internet--v2.png"/></a>
-                    <a className="navbar-brand h3 text-white" href="/"><strong>100ms</strong></a>
+                    <a className="navbar-brand" href="/"><img src="https://img.icons8.com/color/96/000000/video-call--v1.png"/></a>
+                    <a className="navbar-brand text-white" href="/">100ms</a>
                     
                 </div>
                 <div className="collapse navbar-collapse">
@@ -30,7 +31,7 @@ function Navbar() {
                             <a className="nav-link"  href="#">Sign In</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link-try btn btn-primary btn-large" href="#">Try it now</a>
+                            <a className="nav-link-try btn btn-large" href="#">Try it now</a>
                         </li>
                     </ul>    
                 </div>          

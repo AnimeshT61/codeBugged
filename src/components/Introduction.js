@@ -8,12 +8,12 @@ function Introduction() {
                         <h2 align="left" className="display-2 text-white">Add video conferencing to your app.Without the tears</h2>
                         <p align="left" className="h4 intro-desc">100ms’ powerful SDKs wrap the world’s leading live video experts’ experience into a few lines of code</p>
                         <br/>
-                        <a align="left" className="btn btn-primary btn-large" href="#">Get Started</a>
+                        <a align="left" className="intro-start btn btn-large" href="#">Get Started</a>
                     </div>
                     <div className="col-12 col-lg-6 pr-0">
                         <figure>
                             <video autoplay="autoplay" loop="loop" muted="muted" playsinline>
-                                <source src="https://bc-public-static-assets.s3.ap-south-1.amazonaws.com/website-videos/original-dimension/Hero.mp4" type="video/mp4"/>
+                                <source src="https://wave.video/embed/60ec650946e0fb0001aff293/60ec650946e0fb0001aff299.mp4" type="video/mp4"/>
                             </video>
                         </figure>
                     </div>
@@ -22,7 +22,7 @@ function Introduction() {
                     <div className="col-12 col-lg-6 pr-0 order-2 order-lg-1">
                         <figure>
                             <video autoplay="autoplay" loop="loop" muted="muted" playsinline>
-                                <source src="https://bc-public-static-assets.s3.ap-south-1.amazonaws.com/website-videos/website-dimension/autoTune-v2.mp4" type="video/mp4"/>
+                                <source src="https://wave.video/embed/60ec65ac46e0fb0001b73968/60ec65ac46e0fb0001b7396e.mp4" type='video/mp4'/>
                             </video>
                         </figure>
                     </div>
@@ -49,13 +49,16 @@ function Introduction() {
                     <div className="col-12 col-lg-6 pr-0">
                         <figure>
                             <video autoplay="autoplay" loop="loop" muted="muted" playsinline>
-                                <source src="https://bc-public-static-assets.s3.ap-south-1.amazonaws.com/website-videos/original-dimension/RoomSync.mp4" type="video/mp4"/>
+                                <source src="https://wave.video/embed/60ec693a46e0fb0001ef7b91/60ec693a46e0fb0001ef7b97.mp4" type="video/mp4"/>
                             </video>
                         </figure>
+                        
                     </div>
+                    
                 </div>
-                
+               
             </section>
+           <div class="breakpoint"><hr/></div>
         </div>
     )
 }
